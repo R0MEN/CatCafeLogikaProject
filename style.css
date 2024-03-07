@@ -1,1 +1,86 @@
+.navi{
+position: absolute;
+margin: 0 auto;
+height: 68px;
+left: 0%;
+right: 0%;
+top: 0%;
+background: #F3CA78;
+}
+.logo{
+position: absolute;
+width: 53px;
+height: 55px;
+left: 8px;
+top: 2px;
+background: url(image.png);
+mix-blend-mode: darken;
+}
+.navi-img{
+
+}
+.crapka{
+position: absolute;
+width: 32px;
+height: 28px;
+left: 739px;
+top: -12px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.text1{
+position: absolute;
+width: 260px;
+height: 20px;
+left: 413px;
+top: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+
+.text2{
+position: absolute;
+width: 348px;
+height: 21px;
+left: 796px;
+top: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #000000;
+}
+
+.dog{
+position: absolute;
+margin: 0 auto;
+height: 24px;
+left: 352px;
+top: 116px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
 
