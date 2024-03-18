@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.conteiner-main{
+	width: 1280px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background: url("./images/Group\ 26.png");
+    height: 68px;
+}
+
+.logotype {
+    mix-blend-mode: darken;
+    position: relative;
+    left: -155px;
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+nav figure {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+nav {
+    align-items: center;
+    gap: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger {
+    width: 36px;
+    height: 28px;
+    flex-direction: column;
+    display: none;
+}
+
+.burger figure {
+    transition: all 0.4s;
+    height: 6px;
+    width: 100%;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+.mainText {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.cardBlock {
+    width: 272px;
+    height: 361px;
+    border-radius: 20px;
+    border: 1px solid yellow;
+}
+
+.cardImage {
+    margin-left: 13px;
+    margin-top: 14px;
+}
+
+.cardName {
+    margin-left: 13px;
+    font-size: x-large;
+}
+
+.cardDescription {
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.cardPrice {
+    margin-left: 13px;
+    margin-top: 19px;
+    font-size: x-large;
+    border: 1px solid black
+}
+.button-text{
+    margin-top: 9px;
+}
+
+.buttonBuy{
+    
+display: flex;
+    width: 137px;
+    height: 35px;
+     border: none;
+ background-color: #F3CA78;
+ border-radius:10%;
+}
+
+
+@media all and (max-width: 1024px) {
+    .burger {
+        display: flex;
+    }
+
+    .burger.active figure:nth-child(1) {
+        transform: translate(0, 11px) rotate(45deg);
+    }
+
+    .burger.active figure:nth-child(2) {
+        width: 0;
+    }
+
+    .burger.active figure:nth-child(3) {
+        transform: translate(0, -11px) rotate(-45deg);
+    }
+
+    nav {
+        position: absolute;
+        left: -150%;
+        top: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #F3CA78;
+        padding: 50px;
+        height: 100dvh;
+        transition: left 0.5s;
+        max-width: 320px;
+        text-align: center;
+    }
+
+    nav.row {
+        justify-content: flex-start;
+    }
+
+    nav.active {
+        left: 0;
+    }
+}
