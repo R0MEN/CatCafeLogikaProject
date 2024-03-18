@@ -19,6 +19,9 @@ header{
 
 .logotype{
 	mix-blend-mode: darken;
+position: relative;
+left: -155px;
+
 }
 
 nav a{
@@ -61,6 +64,127 @@ nav{
 	border-radius: 5px;
 }
 
+.dog{
+ text-align: center;
+ margin-top: 50px;
+
+}
+
+.data{
+	background-color: black;
+	width: 247px;
+	height: 18px;
+	margin: 0 auto;
+	border-radius: 5%;
+	margin-top: 7px;
+}
+.work-time{
+	color: white;
+	text-align: center;
+	position: relative;
+	font-size: 16px;
+}
+
+.lapka1{
+position: absolute;
+width: 119.38px;
+height: 134.56px;
+left: 300px;
+top: 82px;
+mix-blend-mode: hard-light;
+}
+
+.lapka2{
+position: absolute;
+width: 66.47px;
+height: 71.83px;
+right: 345.53px;
+top: 165px;
+}
+.fotos{
+	display: flex;
+	justify-content: center;
+	gap: 77px;
+	margin-top: 71px;
+}
+
+.shayrma{
+box-sizing: border-box;
+width: 300px;
+height: 224px;
+
+}
+
+.kanapka{
+box-sizing: border-box;
+width: 300px;
+height: 224px;
+
+}
+
+.chai{
+box-sizing: border-box;
+width: 300px;
+height: 224px;
+}
+
+.conteiner-main{
+	width: 1280px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.marc{
+	padding-left: 60px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+}
+
+.cucumber{
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+display:  flex;
+}
+.lalala{
+	margin-top: 20px;
+}
+
+.bulka{
+position: absolute;
+width: 324px;
+height: 38px;
+left: 965px;
+top: 518px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+margin-top: 20px;
+}
+
+.marc-lapka{
+
+position: absolute;
+width: 159.73px;
+height: 152.26px;
+left: 426.01px;
+top: 522px;
+
+}
+
+
+
+
+
+
+
+
 @media all and (max-width: 1024px) {
 	.burger{
 		display: flex;
@@ -71,7 +195,6 @@ nav{
 	}
 
 	.burger.active figure:nth-child(2){
-		/* transform: translate(14px, 0); */
 		width: 0;
 	}
 	.burger.active figure:nth-child(3){
@@ -100,4 +223,3 @@ nav{
 		left: 0;
 	}
 }
-
