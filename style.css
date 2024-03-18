@@ -178,6 +178,86 @@ top: 522px;
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0 0;
+}
+
+.sliderBlock {
+    height: 378px;
+    width: 1281px;
+    margin: 0 auto;
+    background-image: url("/Group 27.png");
+    text-align: center;
+	 position: relative;
+	 padding: 15px 90px;
+}
+
+.slider__list{
+	display: flex;
+	gap: 62px;
+	position: relative;
+    transition: all 1s;
+    left: 25px;
+}
+
+.sliderElem {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 10px;
+	padding: 24px;
+}
+
+.sliderImage {
+    margin-top: 13px;
+	 width: 257px;
+}
+
+.sliderHeadline{
+    text-align: center;
+} 
+
+.sliderButton{
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: #ECE4DD;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.sliderRL {
+    height: 350px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+	 position: absolute;
+}
+
+#prev{
+left: 20px;
+top: calc(50% - 175px);
+}
+
+#next{
+right: 20px;
+top: calc(50% - 175px);
+}
+
+.slider__track{
+	overflow: hidden;
+}
+
 
 
 
