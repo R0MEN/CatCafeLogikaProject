@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,10 +7,10 @@
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.conteiner-main{
-	width: 1280px;
-	height: auto;
-	margin: 0 auto;
+.conteiner-main {
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
 }
 
 .container {
@@ -28,6 +30,12 @@ header {
     left: -155px;
 
 }
+
+.cardBuy {
+    display: flex;
+    gap: 17px;
+}
+
 
 nav a {
     color: black;
@@ -71,15 +79,32 @@ nav {
 
 
 .mainText {
-    margin-left: 20px;
     margin-top: 20px;
 }
 
+.drinks {
+    margin-left: auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.eats{
+    margin-left: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.upperText {
+    display: flex;
+    justify-content: space-between;
+}
+
 .cardBlock {
+    margin-top: 25px;
     width: 272px;
     height: 361px;
     border-radius: 20px;
-    border: 1px solid yellow;
+    border: 1px solid #F3CA78;
 }
 
 .cardImage {
@@ -101,20 +126,185 @@ nav {
     margin-left: 13px;
     margin-top: 19px;
     font-size: x-large;
-    border: 1px solid black
 }
-.button-text{
+
+.allCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button-text {
     margin-top: 9px;
 }
 
-.buttonBuy{
-    
-display: flex;
+.buttonBuy {
+    margin-top: 17px;
+    display: flex;
     width: 137px;
     height: 35px;
-     border: none;
- background-color: #F3CA78;
- border-radius:10%;
+    border: none;
+    background-color: #F3CA78;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.shoppingBag {
+    cursor: pointer;
+}
+
+.cat-window{
+    display: none;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    position: absolute;
+    border: 1px solid black;
+    background-color: white;
+    transition: all 1s;
+    width: 681px;
+    height: 494px;
+    border-radius: 20px;
+    
+}
+
+.anim {
+    animation-duration: 1s;
+    animation-name: width;
+}
+
+.footer {
+    background-color: #090E18; /* зад. фоновый цвет */
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 550;
+}
+
+.cart{
+    border-radius: 10px;
+}
+
+.footer-map {
+/* Отступ для разделения карты от ссылки */
+}
+
+
+.footer-links a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+@keyframes width {
+    from {
+      width: 10%;
+      height: 10%;
+    }
+  
+    to {
+      width: 681px;
+      height: 494px;
+    }
+  }
+
+.koshik{
+ margin-top: 30px;
+ margin-left: 25px;
+ font-size: x-large;
+}
+
+.humster{
+    width: 108px;
+height: 69px;
+border-radius: 10%;
+margin-top: 19px;
+margin-left: 25px;
+}
+
+.juise{
+    display: flex;
+}
+.two-cats{
+    font-size: x-large;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.twix{
+    display: block;
+    margin-left: 15px;
+}
+
+.cat-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kolobok{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: solid black;
+    border-radius: 5px;
+}
+.buttons{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.baba-yaga{
+    width: 20px;
+    height: 20px; 
+    background-color: none;
+    border: solid black;
+    border-radius: 5px;
+}
+
+.aladin{
+    width: 20px;
+    height: 20px; 
+    background-color: white;
+    border: solid black;
+    border-radius: 5px;
+}
+
+.peppa_pig{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.rapuszel{
+    width: 117px;
+    height: 35px;
+    background-color:#D9D9D9;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.karloson{
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: x-large;
+}
+
+
+.tomato{
+    margin-top: 30px;
+    margin-right: 25px;
+    font-size: x-large;
+    cursor: pointer;
 }
 
 

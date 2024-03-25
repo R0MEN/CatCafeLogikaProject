@@ -122,6 +122,11 @@ height: 224px;
 
 }
 
+.cardBuy {
+	display: flex;
+	justify-content: center;
+}
+
 .chai{
 box-sizing: border-box;
 width: 300px;
