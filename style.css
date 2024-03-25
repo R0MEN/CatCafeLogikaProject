@@ -31,6 +31,37 @@ nav a{
 	font-weight: 600;
 }
 
+.footer {
+    background-color: #090E18; /* зад. фоновый цвет */
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 550;
+}
+
+.cart{
+    border-radius: 10px;
+}
+
+
+
+
+.footer-links a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
 nav figure{
 	width: 10px;
 	height: 10px;

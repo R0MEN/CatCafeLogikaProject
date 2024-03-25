@@ -206,6 +206,14 @@ nav {
     text-decoration: underline;
 }
 
+.cat-window__all {
+    margin-top: 19px;
+    overflow-y: scroll;
+    height: 337px;
+}
+
+
+
 @keyframes width {
     from {
       width: 10%;

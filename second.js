@@ -114,7 +114,7 @@ function renderBasket(array) {
 		</div>
 		<div class="buttons">
 			<button class="kolobok"> + </button>
-			<input class="baba-yaga"> 1 </input>
+			<input type = "number" class="baba-yaga" max = "99"></input>
 			<button class="aladin"> - </button>
 		</div>
 		<p class="karloson">${el.price} грн</p>
