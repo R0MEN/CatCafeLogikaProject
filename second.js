@@ -5,8 +5,8 @@ let radialMenu = document.querySelector(".cat-window")
 let clouseButton = document.querySelector(".tomato")
 let buttonBuy = document.querySelector(".buttonBuy")
 let catWindowAll = document.querySelector(".cat-window__all")
-
 let allCards = document.querySelector(".allCards")
+let summKofee = document.querySelector(".summKofee")
 
 let cardsArray = [
 	{
@@ -106,6 +106,7 @@ function renderProd(arr) {
 function renderBasket(array) {
 	catWindowAll.innerHTML = ""
 	array.forEach(el => {
+		
 		catWindowAll.innerHTML += `<div class="juise">
 		<img class="humster" src=${el.img}>
 		<div class="cheburasha">
@@ -122,6 +123,7 @@ function renderBasket(array) {
 	</div>`
 	})
 }
+	
 
 allCards.addEventListener("click", (event) => {
 	let clickedBtn = event.target.closest(".buttonBuy")
@@ -129,6 +131,7 @@ allCards.addEventListener("click", (event) => {
 		let index = cardsArray.findIndex(el => el.id === +clickedBtn.dataset.id)
 		shopArray.push(cardsArray[index])
 		renderBasket(shopArray)
+		console.log(summKofee)
 	}
 })
 
