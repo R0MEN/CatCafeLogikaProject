@@ -13,7 +13,7 @@
 }
 
 header{
-	background: url("images/Group 26.png") ;
+	background: url("./images/Group 26.png") ;
 	height: 68px;
 }
 
@@ -251,7 +251,7 @@ body {
     height: 378px;
     width: 1281px;
     margin: 0 auto;
-    background-image: url("/images/Group 27.png");
+    background-image: url("./images/Group 27.png");
     text-align: center;
 	 position: relative;
 	 padding: 15px 90px;
