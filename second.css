@@ -93,6 +93,30 @@ nav {
     cursor: pointer;
 }
 
+.footerBascet{
+    display: flex;
+    gap: 10px;
+}
+
+.number-table{
+    margin-top: 30px;
+}
+
+.inputBascet{
+    margin-top: 30px;
+    width: 40px;
+}
+
+.buttonBascet {
+    background-color: orange;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .eats{
     margin-left: 25px;
     margin-top: 30px;
@@ -115,6 +139,9 @@ nav {
 .cardImage {
     margin-left: 13px;
     margin-top: 14px;
+    border-radius: 10px;
+    width: 246px;
+    height: 190px;
 }
 
 .cardName {
